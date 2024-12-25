@@ -1,0 +1,6 @@
+INIT_RESEARCH="init_research_node"
+CONDUCT_INTERVIEW_NODE="conduct_interviews"
+REFINE_OUTLINE_NODE="refine_outline"
+INDEX_REFERENCES_NODE="index_references"
+WRITE_SECTIONS_NODE="write_sections"
+WRITE_ARTICLE_NODE="write_article"

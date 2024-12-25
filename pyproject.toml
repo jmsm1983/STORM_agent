@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "03-storm"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "03"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.3.13"
+langchain-core = "^0.3.28"
+langgraph = "^0.2.60"
+langchain-openai = "^0.2.14"
+wikipedia = "^1.4.0"
+qdrant-client = "^1.12.1"
+langchain-qdrant = "^0.2.0"
+pdfkit = "^1.0.0"
+markdown = "^3.7"
+markdown2 = "^2.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
